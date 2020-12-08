@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/buscacalles-cartociudad/static/css/main.838b8b61.chunk.css",
+    "main.js": "/buscacalles-cartociudad/static/js/main.e2d2b09b.chunk.js",
+    "main.js.map": "/buscacalles-cartociudad/static/js/main.e2d2b09b.chunk.js.map",
+    "runtime-main.js": "/buscacalles-cartociudad/static/js/runtime-main.d7997ba4.js",
+    "runtime-main.js.map": "/buscacalles-cartociudad/static/js/runtime-main.d7997ba4.js.map",
+    "static/js/2.60c87e9a.chunk.js": "/buscacalles-cartociudad/static/js/2.60c87e9a.chunk.js",
+    "static/js/2.60c87e9a.chunk.js.map": "/buscacalles-cartociudad/static/js/2.60c87e9a.chunk.js.map",
+    "static/js/3.c8590a93.chunk.js": "/buscacalles-cartociudad/static/js/3.c8590a93.chunk.js",
+    "static/js/3.c8590a93.chunk.js.map": "/buscacalles-cartociudad/static/js/3.c8590a93.chunk.js.map",
+    "index.html": "/buscacalles-cartociudad/index.html",
+    "static/css/main.838b8b61.chunk.css.map": "/buscacalles-cartociudad/static/css/main.838b8b61.chunk.css.map",
+    "static/js/2.60c87e9a.chunk.js.LICENSE.txt": "/buscacalles-cartociudad/static/js/2.60c87e9a.chunk.js.LICENSE.txt",
+    "static/media/SearchTools.css": "/buscacalles-cartociudad/static/media/cartociudad.61c4f66e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d7997ba4.js",
+    "static/js/2.60c87e9a.chunk.js",
+    "static/css/main.838b8b61.chunk.css",
+    "static/js/main.e2d2b09b.chunk.js"
+  ]
+}
