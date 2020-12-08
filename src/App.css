@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+
+  /* CSS HEX */
+
+  --hover-color: #ffe1a8ff;
+  --title-color: #e26d5cff;
+  --btn-color: #723d46ff;
+  --catawba: #723d46ff;
+  --main-color: #472d30ff;
+  --tag-color: #c9cba3ff;
+  --tag-hover-color: #ffe1a8ff;
+  --tag-select-botder-color: #472d30ff;;
+  
+}
+
+.margin {
+  margin: 0.8em;
+}
+

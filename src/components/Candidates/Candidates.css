@@ -1,0 +1,19 @@
+/* candidates */
+
+.candidates {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    padding: 2em;
+  }
+  
+  .candidates__title {
+    font-size: 2em;
+    padding: 0.2em;
+  }
+  
+  .candidates__subtitle {
+    font-size: 1em;
+  }

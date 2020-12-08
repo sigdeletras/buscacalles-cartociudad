@@ -1,0 +1,36 @@
+/* header and navbar */
+
+header {
+    width: 100%;
+    position: fixed;
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .nav {
+    overflow: hidden;
+    background-color: var(--main-color);
+  }
+  
+  .nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0.8em 1em;
+    text-decoration: none;
+    font-size: 1.1em;
+  }
+  
+  .nav a:hover {
+    background-color: var(--hover-color);
+    color: black;
+  }
+  
+  .nav a.active {
+    background-color: var(--title-color);
+    color: white;
+  }
+  
+  .nav__infolinks {
+    float: right;
+  }
+  

@@ -1,0 +1,61 @@
+/* search_tools */
+
+.search_tools {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 1)),
+    url("./img/cartociudad.png");
+}
+
+.search_tools h1 {
+  margin: 3em 0em 0.8em 0em;
+}
+
+
+.search_tools input[type="text"] {
+  width: 100%;
+  min-width: 600px;
+  padding: 0.5em;
+  border: 0.1em solid #ccc;
+  border-radius: 0.4em;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.search_tools_section--filter_option{
+  display: flex;
+  flex-direction: row;
+}
+.search_tools_section--filter_option div{
+padding: 0 0.5em 0.5em 0;
+}
+
+.btn {
+  border: none;
+  margin: 0.4em;
+  color: white;
+  padding: 0.5em 1.5em;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: var(--catawba);
+}
+
+.btn:hover {
+  background-color: var(--hover-color);
+  color: black;
+}
+
+@media screen and (max-width: 400px) {
+  .search_tools input[type="text"] {
+    min-width: 200px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .search_tools input[type="text"] {
+    min-width: 400px;
+  }
+}

@@ -1,0 +1,27 @@
+/* information */
+
+.information {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  /* margin: 1em; */
+}
+.tag {
+  border: none;
+  margin: 0.4em;
+  padding: 0.5em 1.5em;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: var(--tag-color);
+}
+
+.tag:hover {
+  background-color: var(--tag-hover-color);
+  color: white;
+}
+.tag--select {
+  border: 0.2em solid var(--tag-select-botder-color);
+}
