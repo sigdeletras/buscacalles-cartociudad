@@ -12,7 +12,7 @@ const Header = () => {
         <div className="nav__infolinks">
           <a href="#search_tools_section">Buscador</a>
           <a href="#about">Info</a>
-          <a href="#about">GitHub</a>
+          <a href="https://github.com/sigdeletras/buscacalles-cartociudad">GitHub</a>
         </div>
       </div>
     </header>
