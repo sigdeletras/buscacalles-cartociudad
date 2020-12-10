@@ -5,6 +5,7 @@ import "./SearchTools.css";
 import { getCandidates } from "../../services/getCandidates";
 
 import Information from "../Information/Information";
+import Preloader from "../Preloader/Preloader";
 
 
 const SearchTools = () => {
@@ -16,15 +17,20 @@ const SearchTools = () => {
   const [checked, setChecked] = useState(true);
   const [candidates, setCandidates] = useState([]);
 
+  let [isLoading, setIsLoading] = useState(false);
+
   const address_text = useRef();
   const noaddress_option = useRef();
   const all_option = useRef();
 
   useEffect(() => {
-    
-    getCandidates(params.address_text, params.filter_option).then((candidates) =>
+    setIsLoading(true);//mostramos loading
+    getCandidates(params.address_text, params.filter_option)
+    .then((candidates) =>
       setCandidates(candidates)
-    );
+    )
+    .finally(() => setIsLoading(false));//ocultamos el loadingltamos el loading
+    
   }, [params.address_text, params.filter_option]);
 
   const handleInputChange = (event) => {
@@ -54,6 +60,8 @@ const SearchTools = () => {
     all_option.current.checked = true
     noaddress_option.current.checked = false
   };
+
+
 
   return (
     <Fragment>
@@ -86,6 +94,8 @@ const SearchTools = () => {
           <button className="btn" onClick={handleCleanButtonClick} >Limpiar</button>
         </div>
       </section>
+      { isLoading ? <Preloader></Preloader> : null}
+      
       <Information data={candidates}></Information>
     </Fragment>
   );
