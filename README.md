@@ -5,7 +5,7 @@ Aplicación React para búsquedas de direcciones de España usado la API REST de
 React application for address searches in Spain using the REST API of the CartoCiudad project.
 
 - Public wep app [http://sigdeletras.com/buscacalles-cartociudad/](http://sigdeletras.com/buscacalles-cartociudad/)
-- More info (Spanish) [http://sigdeletras.com/buscacalles-cartociudad/](http://sigdeletras.com/buscacalles-cartociudad/)
+- More info (Spanish) in SIGdeletras.com [BuscaCalles. Aplicación React para la consulta de datos de CartoCiudad](http://sigdeletras.com/2020/buscacalles-aplicacion-react-para-la-consulta-de-datos-de-cartociudad/)
 
 ## Resources
 - [React Hooks: Un gran cambio se avecina](https://pablomagaz.com/blog/react-hooks-gran-cambio-se-avecina)
